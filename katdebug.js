@@ -1,7 +1,7 @@
 console.log("1. Hello Welcome to your first test.");
 console.log("2. We are excited to have you.");
 console.log("3. We are going to have some fun today."); 
-var i = 0;
+
 function basicFunc () {
      
      console.log("4. You called me from inside a function! Yay!");
@@ -36,7 +36,7 @@ function ifsAndElses () {
 function loopies () {
     console.log("I want to see which loop we are on 5 times");
     var loopArray = [];
-
+    var i = 0;
     while (i < 5) {
         console.log("7. We are on loop:", i);
         loopArray.push(i);
